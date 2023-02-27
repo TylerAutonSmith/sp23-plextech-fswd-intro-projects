@@ -1,11 +1,134 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
+        <meta name="We got bread on deck, toasted" content="Burnt ass bread my g">
+        <meta name="Tyler Auton-Smith" content="Borger">
+        <title> Ty tys burgers</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        
+        
     </head>
     <body>
         
+      
+        <div class="flexbox-conatiner"> 
+                
+                <div class="flexbox-header" id="text"> 
+                    We got some Burgers G
+                    <div>
+                        <button onclick="light()">Light</button>
+                        
+                    </div>
+                    <div>
+                        <button onclick="dark()">Dark</button>
+                        
+                    </div>
+                    
+                </div>
+                    
+                <div class="middle" >
+                    <div class=" flexbox-aside" id="aside"> 
+                        Man you want some mfing bunnns my dog we got you with that shit bro dont even trip about it
+                   </div>
+                   
+                   <div class="flexbox-article" id="article"> 
+                       <div class="paragraph">  
+                        Welcome to the bread bank
+   
+                       we sell bread, we sell loafs
+                       
+                       we got bread on deck, bread on the floor
+                       
+                       TOASTED
+                       
+                       ROASTED<br> 
+                       
+                       shut the fuck up
+                       
+                       listen i just need a baguette and a brioche<br> 
+                       
+                       we don't have either of those
+                       
+                       you can get the gluten free white bread, the potato bread-<br> 
+                       
+                       what the fuck is gluten? take that shit out<br> 
+                       
+                       it's gluten free<br> 
+                       
+                       i don't care if it's gluten free
+                       
+                       swear on your fucking YEEZYS<br> 
+                       
+                       if you wanna fight, we gon' fight<br> 
+                       
+                       tryna be on WORLDSTAR?<br> 
+                       
+                       wut, you gon' record it?<br> 
+                       
+                       ye, i got my dollar store camera, ON<br> 
+                       
+                       what's the fucking SITUAAAAAAAATION?<br> 
+                       
+                       what the fuck do you want?<br> 
+                       
+                       i'm the motherfucking MANAGER
+                       
+                       at the BREAD STORE<br> 
+                       
+                       B R E A D
+                    </div>
+
+                    
+
+                   <div class="pic"> 
+                        <img src="Breadimage.jpeg" alt="Flowers in Chania">
+                        <img src="Breadimage.jpeg" alt="Flowers in Chania">
+                        <img src="Breadimage.jpeg" alt="Flowers in Chania">
+                   </div>
+                </div>
+             </div>
+             <div class="flexbox-footer" id="footer">
+                <h4> Thank you for visiting the bread store</h4>
+            </div> 
+        </div>
+
+        <script>
+            function light() {
+                document.getElementById("text").style.backgroundColor = "#21BBB2";
+                document.getElementById("article").style.backgroundColor = "#DFBE16";
+                document.getElementById("aside").style.backgroundColor = "#E7841C";
+                document.getElementById("footer").style.backgroundColor = "#9C26E4";
+
+        var el = document.getElementById("text");
+        var el2 = document.getElementById("footer");
+        var el3 = document.getElementById("article");
+        var el4 = document.getElementById("aside"); 
+        el2.style.color="#000000";
+        el.style.color="#000000";
+        el3.style.color="#000000";
+        el4.style.color="#000000";
+        document.body.style.background-color
+
+        }
+        </script>
+        <script>
+            function dark() {
+                var el = document.getElementById("text");
+                document.getElementById("text").style.backgroundColor = "#0E5651";
+                document.getElementById("article").style.backgroundColor = "#917A08";
+                document.getElementById("aside").style.backgroundColor = "#95530C";
+                document.getElementById("footer").style.backgroundColor = "#620A97";
+                
+        var el2 = document.getElementById("footer");
+        var el3 = document.getElementById("article");
+        var el4 = document.getElementById("aside");
+        el2.style.color="#FFFFFF";
+        el.style.color="#FFFFFF";
+        el3.style.color="#FFFFFF";
+        el4.style.color="#FFFFFF";
+        
+        }
+        </script>
     </body>
 </html>
